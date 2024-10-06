@@ -383,7 +383,7 @@ html {
     .hero {
         background-image: none;
         /* Remove the background image */
-        background-color: #3e2723;
+        background-color: #AC8447;
         /* Set a solid color for the background */
         padding: 100px 20px;
         /* Add padding to maintain spacing */
@@ -512,12 +512,11 @@ html {
 @media (max-width: 768px) {
 
     /* About Us Section */
-    /* About Us Section */
     .about-us {
-        background-image: url('backAbout.JPG');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: none;
+        /* Remove the background image */
+        background-color: #6F4E3C;
+        /* Set a solid color for mobile */
         padding: 80px 20px;
     }
 
@@ -753,10 +752,10 @@ html {
 
     /* Tokenomics Section */
     .tokenomics {
-        background-image: url('mobBack.JPG');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: none;
+        /* Remove the background image */
+        background-color: #5d4037;
+        /* Set a solid color */
         padding: 80px 20px;
     }
 
@@ -828,10 +827,10 @@ html {
 
     /* Roadmap Section */
     .roadmap {
-        background-image: url('BackRoad.JPG');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: none;
+        /* Remove the background image */
+        background-color: #AC8447;
+        /* Set a solid color */
         padding: 80px 20px;
     }
 
