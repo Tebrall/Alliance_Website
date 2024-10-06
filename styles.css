@@ -380,14 +380,18 @@ html {
 
     /* Hero Section */
     .hero {
-        background-image: url('mobBack.JPG');
-        /* Use a simpler mobile-optimized image */
+        background-image: url('path/to/simpler-hero-mobile.jpg');
+        /* Use a specific image for mobile */
         background-size: cover;
-        /* Make sure the image fits nicely */
-        background-position: center;
-        /* Center the background for consistency */
+        /* Ensure the background covers the entire section */
+        background-position: center center;
+        /* Center the image vertically and horizontally */
+        background-repeat: no-repeat;
+        /* Prevent the image from repeating */
         background-attachment: scroll;
-        /* Remove fixed background for better performance on mobile */
+        /* Remove fixed to prevent issues on mobile */
+        padding: 100px 20px;
+        /* Adjust padding for spacing */
     }
 
     .hero-title {
