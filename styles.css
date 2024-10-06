@@ -827,49 +827,36 @@ html {
 
     /* Roadmap Section */
     .roadmap {
-        background-image: none;
-        /* Remove the background image */
         background-color: #AC8447;
-        /* Set a solid color similar to the tones of the uploaded image */
+        /* Solid background color for mobile */
         padding: 20px;
-        /* Reduce padding for a more compact look on mobile */
+        border-radius: 15px;
+        /* Add rounded corners to create a rectangular box feel */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        /* Add a shadow for depth */
+        max-width: 95%;
+        margin: 20px auto;
+        /* Center the whole section */
         text-align: center;
-        /* Center the text content */
+        /* Center all text inside */
     }
 
     .roadmap-title {
         font-size: 1.8rem;
-        /* Reduce font size for better readability on smaller screens */
+        /* Reduce the title size for mobile */
         color: #3e2723;
-        /* Use a contrasting color for better visibility */
-        margin-bottom: 20px;
+        /* Darker color for good contrast */
+        margin-bottom: 15px;
     }
 
     .roadmap-image {
         display: block;
-        /* Ensure it displays properly */
-        margin: 0 auto 20px auto;
-        /* Center the image and add some margin for spacing */
         width: 100%;
-        /* Make it responsive */
-        max-width: 450px;
-        /* Prevent the image from becoming too large */
+        max-width: 400px;
+        /* Keep it reasonable for mobile */
+        margin: 0 auto 20px;
+        /* Center the image and add spacing below */
         border-radius: 10px;
-        /* Add some rounding to match the theme */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-        /* Add subtle shadow for better visibility */
-    }
-
-    /* Roadmap Information Blocks */
-    .roadmap-info {
-        background-color: #4d3624;
-        /* Darker background for contrast */
-        color: #fff;
-        /* White text for better readability */
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 10px;
-        font-size: 1rem;
-        /* Adjust font size for readability */
+        /* Match the corner radius of the section */
     }
 }
