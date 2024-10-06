@@ -377,17 +377,40 @@ html {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+
+    /* Hero Section */
+    .hero {
+        min-height: 100vh;
+        /* Maintain full viewport height */
+        padding: 80px 15px;
+        /* Increase padding to ensure the content is not cut off */
+        background-size: cover;
+        /* Ensure the background fits well */
+        background-position: center;
+        /* Adjust background position for better view */
+    }
+
     .hero-title {
-        font-size: 10vw;
+        font-size: 8vw;
+        /* Reduce title size for better fit on small screens */
     }
 
-    .hero-button {
+    .hero-content {
+        max-width: 90%;
+        /* Increase max-width for better appearance */
+        padding: 15px;
+    }
+
+    .alliance-logo {
+        width: 30vw;
+        /* Reduce logo size for better proportion */
+    }
+
+    .hero-button,
+    .buy-now-button {
+        padding: 15px 30px;
+        /* Adjust button padding for smaller screen */
         font-size: 1rem;
-        padding: 15px 25px;
-    }
-
-    .floating-orc {
-        width: 25vw;
     }
 }
 
@@ -488,22 +511,32 @@ html {
 }
 
 @media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        text-align: center;
+
+    /* About Us Section */
+    .about-us {
+        padding: 60px 15px;
+        /* Increase padding to avoid content being too close */
+        background-size: cover;
+        /* Ensure the background fits well */
     }
 
-    .about-image-wrapper,
-    .about-text-wrapper {
-        flex: 1 1 100%;
+    .about-content {
+        flex-direction: column;
+        /* Stack content vertically for better readability */
+        align-items: center;
+        text-align: center;
+        /* Center text for better look on small screens */
     }
 
     .about-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        /* Reduce font size for better fit */
     }
 
     .about-description {
         font-size: 1rem;
+        /* Reduce description size for readability */
+        padding: 0 10px;
     }
 }
 
@@ -716,31 +749,32 @@ html {
 }
 
 @media (max-width: 768px) {
-    .tokenomics-details {
-        flex-direction: column;
-        gap: 30px;
+
+    /* Tokenomics Section */
+    .tokenomics {
+        padding: 60px 15px;
+        background-size: cover;
     }
 
     .tokenomics-title {
         font-size: 2.5rem;
+        /* Reduce title font size */
     }
 
-    .tokenomics-subtitle {
-        font-size: 1.2rem;
+    .tokenomics-details {
+        flex-direction: column;
+        /* Stack items vertically */
+        gap: 20px;
+        /* Reduce the gap for better fit */
     }
 
-    .tokenomics-feature {
-        font-size: 1.8rem;
-    }
-
-    .tokenomics-value {
-        font-size: 1.2rem;
-    }
-
-    .tokenomics-description {
-        font-size: 0.9rem;
+    .tokenomics-item {
+        max-width: 90%;
+        /* Limit width for better mobile fit */
+        padding: 15px;
     }
 }
+
 
 
 /* Roadmap Section */
@@ -787,11 +821,24 @@ html {
 
 /* Styling for smaller screens (phones) */
 @media (max-width: 768px) {
+
+    /* Roadmap Section */
+    .roadmap {
+        min-height: auto;
+        /* Allow the height to adjust based on content */
+        padding: 60px 15px;
+        background-size: cover;
+    }
+
     .roadmap-image {
-        left: 0;
-        /* Reset left positioning */
         margin: 0 auto;
         /* Center the image */
+        max-width: 90%;
+        /* Ensure it doesn’t take up the full width */
+    }
 
+    .roadmap-title {
+        font-size: 2.2rem;
+        /* Reduce font size */
     }
 }
