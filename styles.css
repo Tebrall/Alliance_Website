@@ -380,14 +380,14 @@ html {
 
     /* Hero Section */
     .hero {
+        background-image: url('mobBack.JPG');
+        /* Path to a simpler background image */
         background-size: cover;
-        /* Cover the entire section */
-        background-position: top center;
-        /* Focus the top part of the image */
-        background-attachment: fixed;
-        /* Remove 'fixed' to avoid mobile issues */
-        padding: 100px 20px;
-        /* Increase padding for a cleaner look */
+        /* Ensure the new image covers the entire section */
+        background-position: center;
+        /* Center the image for balance */
+        background-attachment: scroll;
+        /* Prevent 'fixed' attachment to improve performance on mobile */
     }
 
     .hero-title {
@@ -514,14 +514,11 @@ html {
 
     /* About Us Section */
     .about-us {
+        background-image: url('backAbout.JPG');
+        /* Use a simpler image */
         background-size: cover;
-        /* Cover the whole section */
         background-position: center;
-        /* Center the background image */
-        background-attachment: fixed;
-        /* Prevent fixed attachment for mobile */
-        padding: 80px 20px;
-        /* More space to avoid cramped text */
+        background-attachment: scroll;
     }
 
     .about-content {
@@ -755,13 +752,11 @@ html {
 @media (max-width: 768px) {
 
     .tokenomics {
+        background-image: url('mobBack.JPG');
+        /* Alternate, less complex background */
         background-size: cover;
-        /* Fill the whole area */
         background-position: center;
-        /* Center the background */
-        background-attachment: fixed;
-        /* Prevent performance issues on mobile */
-        padding: 80px 20px;
+        background-attachment: scroll;
     }
 
     .tokenomics-title {
@@ -832,12 +827,11 @@ html {
 
     /* Roadmap Section */
     .roadmap {
+        background-image: url('BackRoad.JPG');
+        /* Path to a mobile-optimized image */
         background-size: cover;
-        /* Cover entire space */
         background-position: center;
-        /* Ensure it's centered */
-        background-attachment: fixed;
-        padding: 80px 20px;
+        background-attachment: scroll;
     }
 
     .roadmap-image {
