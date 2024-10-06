@@ -380,14 +380,14 @@ html {
 
     /* Hero Section */
     .hero {
-        background-size: contain;
-        /* Ensure the background image fully fits without being too large */
-        background-position: center;
-        /* Center the background for a better view */
-        background-repeat: no-repeat;
-        /* Prevent repetition of the background */
+        background-size: cover;
+        /* Cover the entire section */
+        background-position: top center;
+        /* Focus the top part of the image */
+        background-attachment: scroll;
+        /* Remove 'fixed' to avoid mobile issues */
         padding: 100px 20px;
-        /* Add sufficient padding to avoid content being cut off */
+        /* Increase padding for a cleaner look */
     }
 
     .hero-title {
@@ -514,11 +514,14 @@ html {
 
     /* About Us Section */
     .about-us {
-        background-size: contain;
-        /* Scale down the background to fit properly */
+        background-size: cover;
+        /* Cover the whole section */
         background-position: center;
-        background-repeat: no-repeat;
+        /* Center the background image */
+        background-attachment: scroll;
+        /* Prevent fixed attachment for mobile */
         padding: 80px 20px;
+        /* More space to avoid cramped text */
     }
 
     .about-content {
@@ -752,10 +755,12 @@ html {
 @media (max-width: 768px) {
 
     .tokenomics {
-        background-size: contain;
-        /* Ensure it fits nicely on mobile */
+        background-size: cover;
+        /* Fill the whole area */
         background-position: center;
-        background-repeat: no-repeat;
+        /* Center the background */
+        background-attachment: scroll;
+        /* Prevent performance issues on mobile */
         padding: 80px 20px;
     }
 
@@ -827,11 +832,12 @@ html {
 
     /* Roadmap Section */
     .roadmap {
-        background-size: contain;
-        /* Make sure the image isn't too large */
+        background-size: cover;
+        /* Cover entire space */
         background-position: center;
-        background-repeat: no-repeat;
-        padding: 100px 20px;
+        /* Ensure it's centered */
+        background-attachment: scroll;
+        padding: 80px 20px;
     }
 
     .roadmap-image {
