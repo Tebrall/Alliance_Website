@@ -381,13 +381,14 @@ html {
     /* Hero Section */
     .hero {
         background-image: url('mobBack.JPG');
-        /* Path to a simpler background image */
-        background-size: cover;
-        /* Ensure the new image covers the entire section */
+        background-size: contain;
+        /* Makes sure the entire image is visible without getting cropped */
         background-position: center;
-        /* Center the image for balance */
-        background-attachment: scroll;
-        /* Prevent 'fixed' attachment to improve performance on mobile */
+        /* Keeps the image centered */
+        background-repeat: no-repeat;
+        /* Prevents the image from repeating */
+        padding: 100px 20px;
+        /* Additional padding to ensure content isn’t cramped */
     }
 
     .hero-title {
@@ -513,12 +514,13 @@ html {
 @media (max-width: 768px) {
 
     /* About Us Section */
+    /* About Us Section */
     .about-us {
         background-image: url('backAbout.JPG');
-        /* Use a simpler image */
-        background-size: cover;
+        background-size: contain;
         background-position: center;
-        background-attachment: scroll;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
     }
 
     .about-content {
@@ -751,12 +753,13 @@ html {
 
 @media (max-width: 768px) {
 
+    /* Tokenomics Section */
     .tokenomics {
         background-image: url('mobBack.JPG');
-        /* Alternate, less complex background */
-        background-size: cover;
+        background-size: contain;
         background-position: center;
-        background-attachment: scroll;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
     }
 
     .tokenomics-title {
@@ -828,10 +831,10 @@ html {
     /* Roadmap Section */
     .roadmap {
         background-image: url('BackRoad.JPG');
-        /* Path to a mobile-optimized image */
-        background-size: cover;
+        background-size: contain;
         background-position: center;
-        background-attachment: scroll;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
     }
 
     .roadmap-image {
