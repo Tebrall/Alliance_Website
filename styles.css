@@ -384,7 +384,7 @@ html {
         /* Cover the entire section */
         background-position: top center;
         /* Focus the top part of the image */
-        background-attachment: scroll;
+        background-attachment: fixed;
         /* Remove 'fixed' to avoid mobile issues */
         padding: 100px 20px;
         /* Increase padding for a cleaner look */
@@ -518,7 +518,7 @@ html {
         /* Cover the whole section */
         background-position: center;
         /* Center the background image */
-        background-attachment: scroll;
+        background-attachment: fixed;
         /* Prevent fixed attachment for mobile */
         padding: 80px 20px;
         /* More space to avoid cramped text */
@@ -759,7 +759,7 @@ html {
         /* Fill the whole area */
         background-position: center;
         /* Center the background */
-        background-attachment: scroll;
+        background-attachment: fixed;
         /* Prevent performance issues on mobile */
         padding: 80px 20px;
     }
@@ -836,7 +836,7 @@ html {
         /* Cover entire space */
         background-position: center;
         /* Ensure it's centered */
-        background-attachment: scroll;
+        background-attachment: fixed;
         padding: 80px 20px;
     }
 
