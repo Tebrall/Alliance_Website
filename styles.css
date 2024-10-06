@@ -380,14 +380,14 @@ html {
 
     /* Hero Section */
     .hero {
-        min-height: 100vh;
-        /* Maintain full viewport height */
-        padding: 80px 15px;
-        /* Increase padding to ensure the content is not cut off */
-        background-size: cover;
-        /* Ensure the background fits well */
+        background-size: contain;
+        /* Ensure the background image fully fits without being too large */
         background-position: center;
-        /* Adjust background position for better view */
+        /* Center the background for a better view */
+        background-repeat: no-repeat;
+        /* Prevent repetition of the background */
+        padding: 100px 20px;
+        /* Add sufficient padding to avoid content being cut off */
     }
 
     .hero-title {
@@ -514,10 +514,11 @@ html {
 
     /* About Us Section */
     .about-us {
-        padding: 60px 15px;
-        /* Increase padding to avoid content being too close */
-        background-size: cover;
-        /* Ensure the background fits well */
+        background-size: contain;
+        /* Scale down the background to fit properly */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
     }
 
     .about-content {
@@ -750,10 +751,12 @@ html {
 
 @media (max-width: 768px) {
 
-    /* Tokenomics Section */
     .tokenomics {
-        padding: 60px 15px;
-        background-size: cover;
+        background-size: contain;
+        /* Ensure it fits nicely on mobile */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 80px 20px;
     }
 
     .tokenomics-title {
@@ -824,10 +827,11 @@ html {
 
     /* Roadmap Section */
     .roadmap {
-        min-height: auto;
-        /* Allow the height to adjust based on content */
-        padding: 60px 15px;
-        background-size: cover;
+        background-size: contain;
+        /* Make sure the image isn't too large */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 20px;
     }
 
     .roadmap-image {
