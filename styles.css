@@ -138,7 +138,7 @@ body, html {
 .hero {
     position: relative;
     height: 100vh;
-    background: url('/Users/user/Desktop/Allience website/pics/background3.jpg') no-repeat center center fixed;
+    background: url('/pics/background3') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -349,7 +349,7 @@ body, html {
         background: linear-gradient(to bottom right, #2e1a0f, #4d3624);
         color: #ffdf80;
         position: relative;
-        background: url('/Users/user/Desktop/Allience website/about.jpg') no-repeat center center fixed;
+        background: url('/Users/user/Desktop/Allience_Website/about.jpg') no-repeat center center fixed;
     }
 
     .container {
@@ -528,7 +528,7 @@ body, html {
 
     .tokenomics {
         padding: 100px 20px;
-        background: url('/Users/user/Desktop/Allience website/pics/background3.jpg') no-repeat center center fixed;
+        background: url('/Users/user/Desktop/Allience_Website/pics/background3.jpg') no-repeat center center fixed;
         background-size: cover;
         position: relative;
         color: #ffdf80;
@@ -683,7 +683,7 @@ body, html {
 .roadmap {
    position: relative;
     height: 100vh;
-    background: url('/Users/user/Desktop/Allience website/roadbackground1.jpg') no-repeat center center fixed;
+    background: url('/Users/user/Desktop/Allience_Website/roadbackground1.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
