@@ -381,14 +381,13 @@ html {
     /* Hero Section */
     .hero {
         background-image: url('mobBack.JPG');
-        background-size: contain;
-        /* Makes sure the entire image is visible without getting cropped */
-        background-position: center;
-        /* Keeps the image centered */
+        background-size: auto 100%;
+        /* Auto width, 100% height */
+        height: 60vh;
+        /* Adjust the height to make sure the section is visually appealing */
+        background-position: top;
+        /* Align the image from the top */
         background-repeat: no-repeat;
-        /* Prevents the image from repeating */
-        padding: 100px 20px;
-        /* Additional padding to ensure content isn’t cramped */
     }
 
     .hero-title {
