@@ -828,6 +828,7 @@ html {
     /* Roadmap Section */
     .roadmap {
         background-color: #AC8447;
+        background-image: none;
         /* Solid background color for mobile */
         padding: 20px;
         border-radius: 15px;
