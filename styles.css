@@ -381,13 +381,13 @@ html {
     /* Hero Section */
     .hero {
         background-image: url('mobBack.JPG');
-        background-size: auto 100%;
-        /* Auto width, 100% height */
-        height: 60vh;
-        /* Adjust the height to make sure the section is visually appealing */
-        background-position: top;
-        /* Align the image from the top */
-        background-repeat: no-repeat;
+        /* Use a simpler mobile-optimized image */
+        background-size: cover;
+        /* Make sure the image fits nicely */
+        background-position: center;
+        /* Center the background for consistency */
+        background-attachment: scroll;
+        /* Remove fixed background for better performance on mobile */
     }
 
     .hero-title {
