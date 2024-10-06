@@ -1,12 +1,15 @@
 /* General Reset */
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Uncial Antiqua', 'Garamond', serif; /* Medieval-themed font */
+    font-family: 'Uncial Antiqua', 'Garamond', serif;
+    /* Medieval-themed font */
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
 /* Header Section */
 .main-header {
     background: #3e2723;
@@ -30,7 +33,8 @@ body, html {
 }
 
 .main-header {
-    transition: top 0.3s ease-in-out; /* Smooth hide/show effect */
+    transition: top 0.3s ease-in-out;
+    /* Smooth hide/show effect */
 }
 
 .header-logo {
@@ -129,6 +133,7 @@ body, html {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -138,26 +143,30 @@ body, html {
 .hero {
     position: relative;
     height: 100vh;
-    background: url('/pics/background3') no-repeat center center fixed;
+    background: url('pics/background3.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff9e6; /* Parchment-like color for text */
+    color: #fff9e6;
+    /* Parchment-like color for text */
     overflow: hidden;
     padding: 20px;
-    border: 10px solid #3e2723; /* Dark wood-like border for hero section */
+    border: 10px solid #3e2723;
+    /* Dark wood-like border for hero section */
 }
 
 .hero-content {
     z-index: 2;
     max-width: 600px;
-    background: rgba(0, 0, 0, 0.5); /* Add transparency for text box over the parchment */
+    background: rgba(0, 0, 0, 0.5);
+    /* Add transparency for text box over the parchment */
     padding: 20px;
     border-radius: 15px;
-    border: 5px solid #5d4037; /* Wood-like frame */
-     transform: translateY(40px);
+    border: 5px solid #5d4037;
+    /* Wood-like frame */
+    transform: translateY(40px);
 }
 
 .alliance-logo {
@@ -170,41 +179,56 @@ body, html {
     font-size: 6vw;
     max-width: 600px;
     margin: 20px 0;
-    color: #ffdf80; /* Gold-like color for medieval richness */
-    text-shadow: 2px 2px 5px #000000; /* Dark shadow to add depth */
-    font-family: 'Uncial Antiqua', serif; /* Gothic, medieval-style font */
+    color: #ffdf80;
+    /* Gold-like color for medieval richness */
+    text-shadow: 2px 2px 5px #000000;
+    /* Dark shadow to add depth */
+    font-family: 'Uncial Antiqua', serif;
+    /* Gothic, medieval-style font */
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 0px;
-    color: #ffdf80; /* Same golden color for consistency */
+    color: #ffdf80;
+    /* Same golden color for consistency */
 }
+
 .hero-subtitle1 {
     font-size: 1.5rem;
     margin-bottom: 30px;
-    color: #ffdf80; /* Same golden color for consistency */
+    color: #ffdf80;
+    /* Same golden color for consistency */
 }
+
 .hero-button {
     padding: 20px 40px;
     font-size: 1.5rem;
     border: none;
-    background: linear-gradient(to bottom, #e6c26b, #b2883b); /* Golden gradient for a regal effect */
-    color: #301b0d; /* Dark brown to contrast the gold */
+    background: linear-gradient(to bottom, #e6c26b, #b2883b);
+    /* Golden gradient for a regal effect */
+    color: #301b0d;
+    /* Dark brown to contrast the gold */
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     border-radius: 12px;
-    box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.5), inset 4px 4px 8px rgba(255, 255, 255, 0.3); /* Adding depth */
-    font-family: 'Uncial Antiqua', serif; /* Gothic, medieval-style font */
+    box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.5), inset 4px 4px 8px rgba(255, 255, 255, 0.3);
+    /* Adding depth */
+    font-family: 'Uncial Antiqua', serif;
+    /* Gothic, medieval-style font */
     text-transform: uppercase;
-    text-shadow: 1px 1px 5px #000000; /* Dark shadow for more depth */
-    border: 2px solid #8b5a2b; /* Dark bronze border for ornate feel */
+    text-shadow: 1px 1px 5px #000000;
+    /* Dark shadow for more depth */
+    border: 2px solid #8b5a2b;
+    /* Dark bronze border for ornate feel */
 }
 
 .hero-button:hover {
     transform: translateY(-5px);
-    box-shadow: -6px -6px 12px #5e5e5e, 6px 6px 12px black; /* Slightly lifted button on hover */
-    background: linear-gradient(to bottom, #f1d382, #b2883b); /* Lighter golden color for hover effect */
+    box-shadow: -6px -6px 12px #5e5e5e, 6px 6px 12px black;
+    /* Slightly lifted button on hover */
+    background: linear-gradient(to bottom, #f1d382, #b2883b);
+    /* Lighter golden color for hover effect */
 }
 
 /* Buy Now Button */
@@ -212,65 +236,84 @@ body, html {
     padding: 20px 40px;
     font-size: 1.5rem;
     border: none;
-    background: linear-gradient(to bottom, #a36b00, #8a4500); /* Copper-like gradient */
+    background: linear-gradient(to bottom, #a36b00, #8a4500);
+    /* Copper-like gradient */
     color: #fff9e6;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     border-radius: 12px;
-    box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.5), inset 4px 4px 8px rgba(255, 255, 255, 0.3); /* Adding depth */
-    font-family: 'Garamond', serif; /* Classical typeface for an ancient vibe */
+    box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.5), inset 4px 4px 8px rgba(255, 255, 255, 0.3);
+    /* Adding depth */
+    font-family: 'Garamond', serif;
+    /* Classical typeface for an ancient vibe */
     text-transform: uppercase;
-    text-shadow: 1px 1px 5px #000000; /* Dark shadow for more depth */
-    border: 2px solid #5e3600; /* Dark border to enhance button prominence */
+    text-shadow: 1px 1px 5px #000000;
+    /* Dark shadow for more depth */
+    border: 2px solid #5e3600;
+    /* Dark border to enhance button prominence */
 }
 
 .buy-now-button:hover {
     transform: translateY(-5px);
-    box-shadow: -6px -6px 12px #3b2400, 6px 6px 12px #ffffff; /* Lighter, more pronounced shadow for hover */
-    background: linear-gradient(to bottom, #bf8c3b, #a36b00); /* Copper shine for hover effect */
+    box-shadow: -6px -6px 12px #3b2400, 6px 6px 12px #ffffff;
+    /* Lighter, more pronounced shadow for hover */
+    background: linear-gradient(to bottom, #bf8c3b, #a36b00);
+    /* Copper shine for hover effect */
 }
 
 /* CTA Icons */
 .cta-icons {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Adjust the spacing between icons as needed */
-    margin-top: 20px; /* Adjust as needed to space out from other elements */
+    gap: 15px;
+    /* Adjust the spacing between icons as needed */
+    margin-top: 20px;
+    /* Adjust as needed to space out from other elements */
 }
 
 .cta-icons a {
     display: inline-block;
-    width: 50px; /* Set width to make icons smaller */
-    height: 50px; /* Set height to make icons smaller */
+    width: 50px;
+    /* Set width to make icons smaller */
+    height: 50px;
+    /* Set height to make icons smaller */
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .cta-icons img {
-    width: 100%; /* Ensures the image fills the container */
-    height: 100%; /* Maintains aspect ratio and fits within the defined width/height */
-    object-fit: contain; /* Keeps the image aspect ratio */
+    width: 100%;
+    /* Ensures the image fills the container */
+    height: 100%;
+    /* Maintains aspect ratio and fits within the defined width/height */
+    object-fit: contain;
+    /* Keeps the image aspect ratio */
 }
 
 .cta-icons a:hover {
     transform: scale(1.1);
-    filter: brightness(1.3); /* Slight glow on hover */
+    filter: brightness(1.3);
+    /* Slight glow on hover */
 }
 
 /* Additional Medieval Effects */
-.hero-button, .buy-now-button {
+.hero-button,
+.buy-now-button {
     position: relative;
     overflow: hidden;
 }
 
-.hero-button::before, .buy-now-button::before {
+.hero-button::before,
+.buy-now-button::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('path/to/ornate-pattern.png') repeat; /* Add an ornate pattern to enhance the medieval look */
-    opacity: 0.1; /* Subtle to not overpower the text */
+    background: url('path/to/ornate-pattern.png') repeat;
+    /* Add an ornate pattern to enhance the medieval look */
+    opacity: 0.1;
+    /* Subtle to not overpower the text */
     pointer-events: none;
 }
 
@@ -292,8 +335,10 @@ body, html {
     transform-origin: bottom;
     pointer-events: auto;
     cursor: pointer;
-    filter: grayscale(0.2); /* To blend better with the medieval theme */
-    opacity: 0.8; /* To give it an ancient feel */
+    filter: grayscale(0.2);
+    /* To blend better with the medieval theme */
+    opacity: 0.8;
+    /* To give it an ancient feel */
 }
 
 /* Positioning Orcs Randomly */
@@ -309,9 +354,12 @@ body, html {
 
 /* Animations */
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(-10px);
     }
+
     50% {
         transform: translateY(10px);
     }
@@ -321,6 +369,7 @@ body, html {
     0% {
         transform: translateY(0) rotate(0deg);
     }
+
     100% {
         transform: translateY(-20px) rotate(10deg);
     }
@@ -331,10 +380,12 @@ body, html {
     .hero-title {
         font-size: 10vw;
     }
+
     .hero-button {
         font-size: 1rem;
         padding: 15px 25px;
     }
+
     .floating-orc {
         width: 25vw;
     }
@@ -344,125 +395,126 @@ body, html {
 
 /* ABOUT US*/
 
- .about-us {
-        padding: 100px 20px;
-        background: linear-gradient(to bottom right, #2e1a0f, #4d3624);
-        color: #ffdf80;
-        position: relative;
-        background: url('/Users/user/Desktop/Allience_Website/about.jpg') no-repeat center center fixed;
-    }
+.about-us {
+    padding: 100px 20px;
+    background: linear-gradient(to bottom right, #2e1a0f, #4d3624);
+    color: #ffdf80;
+    position: relative;
+    background: url('about.jpg') no-repeat center center fixed;
+}
 
-    .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 40px;
-    }
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image-wrapper {
+    flex: 1 1 40%;
+    max-width: 500px;
+    padding: 10px;
+    transform: scale(1);
+    transition: transform 0.4s ease-in-out;
+}
+
+.about-image-wrapper:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.about-text-wrapper {
+    flex: 1 1 55%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-family: 'Uncial Antiqua', serif;
+    margin-bottom: 20px;
+    color: #ffdf80;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #ffecd2;
+    font-family: 'Garamond', serif;
+    margin-bottom: 20px;
+    text-indent: 30px;
+}
+
+.learn-more-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    background: linear-gradient(to bottom, #e6c26b, #b2883b);
+    color: #301b0d;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    box-shadow: inset -3px -3px 6px rgba(0, 0, 0, 0.5), inset 3px 3px 6px rgba(255, 255, 255, 0.3);
+    font-family: 'Uncial Antiqua', serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #000000;
+    border: 2px solid #8b5a2b;
+}
+
+.learn-more-button:hover {
+    transform: translateY(-5px);
+    box-shadow: -6px -6px 12px #5e5e5e, 6px 6px 12px #ffffff;
+    background: linear-gradient(to bottom, #f1d382, #b2883b);
+}
+
+@media (max-width: 768px) {
     .about-content {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
     }
 
-    .about-image-wrapper {
-        flex: 1 1 40%;
-        max-width: 500px;
-        padding: 10px;
-        transform: scale(1);
-        transition: transform 0.4s ease-in-out;
-    }
-
-    .about-image-wrapper:hover {
-        transform: scale(1.05);
-        filter: brightness(1.1);
-    }
-
-    .about-image {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
-    }
-
+    .about-image-wrapper,
     .about-text-wrapper {
-        flex: 1 1 55%;
-        padding: 20px;
-        background: rgba(0, 0, 0, 0.6);
-        border-radius: 15px;
-        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.8);
-        text-align: left;
+        flex: 1 1 100%;
     }
 
     .about-title {
-        font-size: 3rem;
-        font-family: 'Uncial Antiqua', serif;
-        margin-bottom: 20px;
-        color: #ffdf80;
-        text-shadow: 2px 2px 8px #000;
+        font-size: 2.5rem;
     }
 
     .about-description {
-        font-size: 1.2rem;
-        line-height: 1.7;
-        color: #ffecd2;
-        font-family: 'Garamond', serif;
-        margin-bottom: 20px;
-        text-indent: 30px;
+        font-size: 1rem;
     }
+}
 
-    .learn-more-button {
-        padding: 15px 30px;
-        font-size: 1.2rem;
-        border: none;
-        background: linear-gradient(to bottom, #e6c26b, #b2883b);
-        color: #301b0d;
-        cursor: pointer;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        border-radius: 12px;
-        box-shadow: inset -3px -3px 6px rgba(0, 0, 0, 0.5), inset 3px 3px 6px rgba(255, 255, 255, 0.3);
-        font-family: 'Uncial Antiqua', serif;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 5px #000000;
-        border: 2px solid #8b5a2b;
-    }
-
-    .learn-more-button:hover {
-        transform: translateY(-5px);
-        box-shadow: -6px -6px 12px #5e5e5e, 6px 6px 12px #ffffff;
-        background: linear-gradient(to bottom, #f1d382, #b2883b);
-    }
-
-    @media (max-width: 768px) {
-        .about-content {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .about-image-wrapper,
-        .about-text-wrapper {
-            flex: 1 1 100%;
-        }
-
-        .about-title {
-            font-size: 2.5rem;
-        }
-
-        .about-description {
-            font-size: 1rem;
-        }
-    }
-
-  .about-image-wrapper {
+.about-image-wrapper {
     position: relative;
 }
 
 .speech-bubble {
     position: absolute;
-    top: -70px; /* Adjust to position above the head of the King */
+    top: -70px;
+    /* Adjust to position above the head of the King */
     left: 50%;
     transform: translateX(-50%);
     background: #f5deb3;
@@ -483,7 +535,8 @@ body, html {
 .speech-bubble::after {
     content: '';
     position: absolute;
-    top: 100%; /* Arrow points down from the bubble */
+    top: 100%;
+    /* Arrow points down from the bubble */
     left: 50%;
     transform: translateX(-50%);
     border-width: 10px;
@@ -492,207 +545,220 @@ body, html {
 }
 
 
-    /*TOKENOMICS*/
-      @keyframes pulseGlow {
-        0%, 100% {
-            box-shadow: 0 0 20px rgba(255, 223, 128, 0.8), 0 0 30px rgba(255, 223, 128, 0.5);
-        }
-        50% {
-            box-shadow: 0 0 25px rgba(255, 223, 128, 1), 0 0 40px rgba(255, 223, 128, 0.8);
-        }
+/*TOKENOMICS*/
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px rgba(255, 223, 128, 0.8), 0 0 30px rgba(255, 223, 128, 0.5);
     }
 
-    @keyframes mistyHover {
-        0% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-10px);
-        }
-        100% {
-            transform: translateY(0);
-        }
+    50% {
+        box-shadow: 0 0 25px rgba(255, 223, 128, 1), 0 0 40px rgba(255, 223, 128, 0.8);
+    }
+}
+
+@keyframes mistyHover {
+    0% {
+        transform: translateY(0);
     }
 
-    @keyframes mysticalGlow {
-        0% {
-            filter: brightness(0.9);
-        }
-        50% {
-            filter: brightness(1.3);
-        }
-        100% {
-            filter: brightness(0.9);
-        }
+    50% {
+        transform: translateY(-10px);
     }
 
-    .tokenomics {
-        padding: 100px 20px;
-        background: url('/Users/user/Desktop/Allience_Website/pics/background3.jpg') no-repeat center center fixed;
-        background-size: cover;
-        position: relative;
-        color: #ffdf80;
-        overflow: hidden;
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes mysticalGlow {
+    0% {
+        filter: brightness(0.9);
     }
 
-    .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        text-align: center;
+    50% {
+        filter: brightness(1.3);
     }
 
-    .tokenomics-content {
-        padding: 20px;
-        background: rgba(0, 0, 0, 0.7);
-        border-radius: 20px;
-        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.8);
-        border: 5px solid #5d4037; /* Antique wood-like border */
-        animation: mistyHover 3s ease-in-out infinite;
+    100% {
+        filter: brightness(0.9);
     }
+}
 
-    .tokenomics-header {
-        margin-bottom: 50px;
+.tokenomics {
+    padding: 100px 20px;
+    background: url('pics/background3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: #ffdf80;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tokenomics-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.8);
+    border: 5px solid #5d4037;
+    /* Antique wood-like border */
+    animation: mistyHover 3s ease-in-out infinite;
+}
+
+.tokenomics-header {
+    margin-bottom: 50px;
+}
+
+.tokenomics-title {
+    font-size: 3.5rem;
+    font-family: 'Uncial Antiqua', serif;
+    color: #ffdf80;
+    text-shadow: 3px 3px 10px #000;
+    animation: mysticalGlow 4s ease-in-out infinite;
+}
+
+.tokenomics-subtitle {
+    font-size: 1.5rem;
+    font-family: 'Garamond', serif;
+    color: #f5deb3;
+    /* Wheat color to match the parchment */
+    text-shadow: 1px 1px 5px #000;
+    margin-top: 10px;
+}
+
+.tokenomics-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.tokenomics-item {
+    flex: 1 1 30%;
+    max-width: 350px;
+    background: rgba(58, 37, 18, 0.9);
+    /* Dark brown background to match medieval theme */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: mistyHover 3s ease-in-out infinite;
+}
+
+.tokenomics-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 30px rgba(255, 223, 128, 0.8);
+}
+
+.tokenomics-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px auto;
+    transform: scale(1);
+    transition: transform 0.4s ease-in-out;
+    animation: pulseGlow 1s ease-in-out infinite;
+}
+
+.tokenomics-icon-wrapper:hover {
+    transform: scale(1.2);
+}
+
+.tokenomics-icon {
+    width: 100%;
+    height: auto;
+    animation: mysticalGlow 3s ease-in-out infinite alternate;
+}
+
+.tokenomics-feature {
+    font-size: 2rem;
+    font-family: 'Uncial Antiqua', serif;
+    color: #ffdf80;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 10px;
+}
+
+.tokenomics-value {
+    font-size: 1.5rem;
+    font-family: 'Garamond', serif;
+    color: #e0c097;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.tokenomics-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffecd2;
+    font-family: 'Garamond', serif;
+}
+
+.tokenomics-item::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 3px solid #b2883b;
+    /* Golden embellishments around the boxes */
+    border-radius: 15px;
+    z-index: -1;
+    box-shadow: 0px 0px 20px #000;
+    animation: pulseGlow 1s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .tokenomics-details {
+        flex-direction: column;
+        gap: 30px;
     }
 
     .tokenomics-title {
-        font-size: 3.5rem;
-        font-family: 'Uncial Antiqua', serif;
-        color: #ffdf80;
-        text-shadow: 3px 3px 10px #000;
-        animation: mysticalGlow 4s ease-in-out infinite;
+        font-size: 2.5rem;
     }
 
     .tokenomics-subtitle {
-        font-size: 1.5rem;
-        font-family: 'Garamond', serif;
-        color: #f5deb3; /* Wheat color to match the parchment */
-        text-shadow: 1px 1px 5px #000;
-        margin-top: 10px;
-    }
-
-    .tokenomics-details {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-        justify-content: space-around;
-    }
-
-    .tokenomics-item {
-        flex: 1 1 30%;
-        max-width: 350px;
-        background: rgba(58, 37, 18, 0.9); /* Dark brown background to match medieval theme */
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
-        position: relative;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        animation: mistyHover 3s ease-in-out infinite;
-    }
-
-    .tokenomics-item:hover {
-        transform: translateY(-10px);
-        box-shadow: 0px 20px 30px rgba(255, 223, 128, 0.8);
-    }
-
-    .tokenomics-icon-wrapper {
-        width: 100px;
-        height: 100px;
-        margin: 0 auto 20px auto;
-        transform: scale(1);
-        transition: transform 0.4s ease-in-out;
-        animation: pulseGlow 1s ease-in-out infinite;
-    }
-
-    .tokenomics-icon-wrapper:hover {
-        transform: scale(1.2);
-    }
-
-    .tokenomics-icon {
-        width: 100%;
-        height: auto;
-        animation: mysticalGlow 3s ease-in-out infinite alternate;
+        font-size: 1.2rem;
     }
 
     .tokenomics-feature {
-        font-size: 2rem;
-        font-family: 'Uncial Antiqua', serif;
-        color: #ffdf80;
-        text-shadow: 2px 2px 5px #000;
-        margin-bottom: 10px;
+        font-size: 1.8rem;
     }
 
     .tokenomics-value {
-        font-size: 1.5rem;
-        font-family: 'Garamond', serif;
-        color: #e0c097;
-        margin-bottom: 15px;
-        text-shadow: 1px 1px 5px #000;
+        font-size: 1.2rem;
     }
 
     .tokenomics-description {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #ffecd2;
-        font-family: 'Garamond', serif;
+        font-size: 0.9rem;
     }
-
-    .tokenomics-item::before {
-        content: '';
-        position: absolute;
-        top: -15px;
-        left: -15px;
-        right: -15px;
-        bottom: -15px;
-        border: 3px solid #b2883b; /* Golden embellishments around the boxes */
-        border-radius: 15px;
-        z-index: -1;
-        box-shadow: 0px 0px 20px #000;
-        animation: pulseGlow 1s ease-in-out infinite;
-    }
-
-    @media (max-width: 768px) {
-        .tokenomics-details {
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        .tokenomics-title {
-            font-size: 2.5rem;
-        }
-
-        .tokenomics-subtitle {
-            font-size: 1.2rem;
-        }
-
-        .tokenomics-feature {
-            font-size: 1.8rem;
-        }
-
-        .tokenomics-value {
-            font-size: 1.2rem;
-        }
-
-        .tokenomics-description {
-            font-size: 0.9rem;
-        }
-    }
+}
 
 
-    /* Roadmap Section */
+/* Roadmap Section */
 .roadmap {
-   position: relative;
+    position: relative;
     height: 100vh;
-    background: url('/Users/user/Desktop/Allience_Website/roadbackground1.jpg') no-repeat center center fixed;
+    background: url('roadbackground1.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff9e6; /* Parchment-like color for text */
+    color: #fff9e6;
+    /* Parchment-like color for text */
     overflow: hidden;
     padding: 20px;
-    border: 10px solid #3e2723; /* Dark wood-like border for hero section */
+    border: 10px solid #3e2723;
+    /* Dark wood-like border for hero section */
 }
 
 .roadmap-title {
@@ -716,13 +782,16 @@ body, html {
     max-width: 1000px;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
-     margin-left: 180px;
+    margin-left: 180px;
 }
+
 /* Styling for smaller screens (phones) */
 @media (max-width: 768px) {
     .roadmap-image {
-        left: 0; /* Reset left positioning */
-        margin: 0 auto; /* Center the image */
-        
+        left: 0;
+        /* Reset left positioning */
+        margin: 0 auto;
+        /* Center the image */
+
     }
-    }
+}
