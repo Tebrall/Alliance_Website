@@ -379,19 +379,14 @@ html {
 @media (max-width: 768px) {
 
     /* Hero Section */
+
     .hero {
-        background-image: url('path/to/simpler-hero-mobile.jpg');
-        /* Use a specific image for mobile */
-        background-size: cover;
-        /* Ensure the background covers the entire section */
-        background-position: center center;
-        /* Center the image vertically and horizontally */
-        background-repeat: no-repeat;
-        /* Prevent the image from repeating */
-        background-attachment: scroll;
-        /* Remove fixed to prevent issues on mobile */
+        background-image: none;
+        /* Remove the background image */
+        background-color: #3e2723;
+        /* Set a solid color for the background */
         padding: 100px 20px;
-        /* Adjust padding for spacing */
+        /* Add padding to maintain spacing */
     }
 
     .hero-title {
