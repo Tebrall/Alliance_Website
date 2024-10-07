@@ -378,9 +378,9 @@ html {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero {
-        background-image: url('mobBack.JPG');
+        background-image: url('');
         /* Optional: use a smaller background image */
-
+        background-color: #4d3624;
         /* Fallback solid color */
         height: auto;
         /* Let the content determine the height */
@@ -506,8 +506,8 @@ html {
 
 @media (max-width: 768px) {
     .about-us {
-        background-image: url('backAbout.JPG');
-
+        background-image: url('');
+        background-color: #8b5a2b;
         /* Fallback color */
         padding: 80px 20px;
     }
@@ -534,6 +534,7 @@ html {
 
 .about-image-wrapper {
     position: relative;
+
 }
 
 .speech-bubble {
