@@ -772,23 +772,24 @@ html {
 }
 
 
-
-/* Roadmap Section */
 .roadmap {
     position: relative;
-    height: 100vh;
+    padding: 40px 0;
+    /* Adjusted padding to reduce white space */
     background: url('roadbackground1.jpg') no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     color: #fff9e6;
-    /* Parchment-like color for text */
-    overflow: hidden;
-    padding: 20px;
+    max-width: 100%;
+    /* Ensure it fills the full width */
+    margin: 0 auto;
+    /* Center the section */
     border: 10px solid #3e2723;
-    /* Dark wood-like border for hero section */
+    /* Dark wood-like border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* Add shadow for depth */
+    border-radius: 0;
+    /* Remove rounded corners to eliminate white angles */
 }
 
 .roadmap-title {
@@ -797,61 +798,55 @@ html {
     margin-bottom: 20px;
     color: #ffdf80;
     text-shadow: 2px 2px 8px #000;
-}
-
-.roadmap-description {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    font-family: 'Garamond', serif;
-    margin-bottom: 40px;
-    text-indent: 20px;
+    text-align: center;
+    /* Ensure the title is centered */
+    margin: 0 auto;
+    /* Center the title within the container */
 }
 
 .roadmap-image {
     width: 100%;
+    /* Make the image larger and fill the section */
     max-width: 1000px;
-    border-radius: 15px;
+    /* Ensure image does not exceed container width */
+    border-radius: 0;
+    /* Remove rounded corners */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
-    margin-left: 180px;
+    margin: 20px auto 0;
+    /* Center the image and add spacing above */
 }
 
 /* Styling for smaller screens (phones) */
 @media (max-width: 768px) {
-
-    /* Roadmap Section */
     .roadmap {
         background-color: #AC8447;
         background-image: none;
-        /* Solid background color for mobile */
-        padding: 20px;
-        border-radius: 15px;
-        /* Add rounded corners to create a rectangular box feel */
+        padding: 40px 10px;
+        /* Reduce padding for a more compact layout */
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        /* Add a shadow for depth */
-        max-width: 95%;
-        margin: 20px auto;
-        /* Center the whole section */
-        text-align: center;
-        /* Center all text inside */
-        height: auto;
+        max-width: 100%;
+        /* Ensure section width fits the screen */
+        border: 10px solid #3e2723;
+        /* Keep the border with no rounded corners */
+        border-radius: 0;
+        /* Ensure no rounded corners */
     }
 
     .roadmap-title {
-        font-size: 1.8rem;
+        font-size: 2rem;
         /* Reduce the title size for mobile */
         color: #3e2723;
-        /* Darker color for good contrast */
+        /* Darker color for better contrast */
         margin-bottom: 15px;
     }
 
     .roadmap-image {
-        display: block;
-        width: 300px;
+        width: 95%;
+        /* Use most of the screen width for better visibility */
         max-width: 400px;
-        /* Keep it reasonable for mobile */
+        /* Ensure it does not overflow the container */
         margin: 0 auto 20px;
-        /* Center the image and add spacing below */
-        border-radius: 10px;
-        /* Match the corner radius of the section */
+        border-radius: 0;
+        /* Remove rounded corners to avoid white spaces */
     }
 }
