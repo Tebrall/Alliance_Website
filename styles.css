@@ -380,7 +380,7 @@ html {
     .hero {
         background-image: url('mobBack.JPG');
         /* Optional: use a smaller background image */
-        background-color: #AC8447;
+
         /* Fallback solid color */
         height: auto;
         /* Let the content determine the height */
@@ -507,7 +507,7 @@ html {
 @media (max-width: 768px) {
     .about-us {
         background-image: url('backAbout.JPG');
-        background-color: #6F4E3C;
+
         /* Fallback color */
         padding: 80px 20px;
     }
@@ -832,6 +832,7 @@ html {
         /* Center the whole section */
         text-align: center;
         /* Center all text inside */
+        height: auto;
     }
 
     .roadmap-title {
@@ -844,7 +845,7 @@ html {
 
     .roadmap-image {
         display: block;
-        width: 100%;
+        width: 300px;
         max-width: 400px;
         /* Keep it reasonable for mobile */
         margin: 0 auto 20px;
