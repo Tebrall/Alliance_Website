@@ -378,7 +378,7 @@ html {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero {
-        background-image: url('');
+        background-image: none;
         /* Optional: use a smaller background image */
         background-color: #4d3624;
         /* Fallback solid color */
@@ -506,7 +506,7 @@ html {
 
 @media (max-width: 768px) {
     .about-us {
-        background-image: url('');
+        background-image: none;
         background-color: #8b5a2b;
         /* Fallback color */
         padding: 80px 20px;
