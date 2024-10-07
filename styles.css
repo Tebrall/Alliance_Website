@@ -377,38 +377,33 @@ html {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-
-    /* Hero Section */
-
     .hero {
-        background-image: none;
-        /* Remove the background image */
+        background-image: url('mobBack.JPG');
+        /* Optional: use a smaller background image */
         background-color: #AC8447;
-        /* Set a solid color for the background */
-        padding: 100px 20px;
-        /* Add padding to maintain spacing */
+        /* Fallback solid color */
+        height: auto;
+        /* Let the content determine the height */
+        padding: 80px 20px;
     }
 
     .hero-title {
         font-size: 8vw;
-        /* Reduce title size for better fit on small screens */
     }
 
     .hero-content {
         max-width: 90%;
-        /* Increase max-width for better appearance */
         padding: 15px;
     }
 
     .alliance-logo {
         width: 30vw;
-        /* Reduce logo size for better proportion */
+        /* Smaller size for better fit */
     }
 
     .hero-button,
     .buy-now-button {
         padding: 15px 30px;
-        /* Adjust button padding for smaller screen */
         font-size: 1rem;
     }
 }
@@ -510,33 +505,30 @@ html {
 }
 
 @media (max-width: 768px) {
-
-    /* About Us Section */
     .about-us {
-        background-image: none;
-        /* Remove the background image */
+        background-image: url('backAbout.JPG');
         background-color: #6F4E3C;
-        /* Set a solid color for mobile */
+        /* Fallback color */
         padding: 80px 20px;
     }
 
     .about-content {
         flex-direction: column;
-        /* Stack content vertically for better readability */
         align-items: center;
         text-align: center;
-        /* Center text for better look on small screens */
     }
 
     .about-title {
         font-size: 2.2rem;
-        /* Reduce font size for better fit */
     }
 
     .about-description {
         font-size: 1rem;
-        /* Reduce description size for readability */
         padding: 0 10px;
+    }
+
+    .about-image-wrapper {
+        max-width: 80%;
     }
 }
 
