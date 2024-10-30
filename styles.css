@@ -162,6 +162,13 @@ html {
     }
 }
 
+@media (max-width: 480px) {
+    .hero, .about-us, .tokenomics, .roadmap, .da-vinci-section {
+        background-attachment: scroll; /* Ensure no parallax effect on mobile */
+        background-size: cover; /* Ensure full image is visible without distortion */
+    }
+}
+
 /* Hero Section */
 .hero {
     position: relative;
