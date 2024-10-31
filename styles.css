@@ -539,7 +539,7 @@ html {
 
 @media (max-width: 768px) {
     .about-us {
-        /* background-image: none; */
+        background: url("about-for-phone.png") center center / cover no-repeat scroll;
         background-color: #8b5a2b;
         /* Fallback color */
         padding: 80px 20px;
