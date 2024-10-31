@@ -173,7 +173,7 @@ html {
 .hero {
     position: relative;
     height: 100%;
-    background: url('pics/background3.jpg') no-repeat center center fixed;
+    background: url('pics/background3.jpg') center center / cover no-repeat scroll;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -448,7 +448,7 @@ html {
     background: linear-gradient(to bottom right, #2e1a0f, #4d3624);
     color: #ffdf80;
     position: relative;
-    background: url('about.jpg') no-repeat center center fixed;
+    background: url('about.jpg') center center / cover no-repeat scroll;
     border: 10px solid #3e2723;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
 }
@@ -647,7 +647,7 @@ html {
 
 .tokenomics {
     padding: 100px 20px;
-    background: url('pics/background3.jpg') no-repeat center center fixed;
+    background: url('pics/background3.jpg') center center / cover no-repeat scroll;
     background-size: cover;
     position: relative;
     color: #ffdf80;
@@ -810,7 +810,7 @@ html {
     position: relative;
     padding: 40px 0;
     /* Adjusted padding to reduce white space */
-    background: url('pics/background3.jpg') no-repeat center center fixed;
+    background: url('pics/background3.jpg') center center / cover no-repeat scroll;
     background-size: cover;
     text-align: center;
     color: #fff9e6;
@@ -981,7 +981,7 @@ html {
 
 /* Da Vinci Section */
 .da-vinci-section {
-    background: url('background\ davinci.webp') no-repeat center center fixed;
+    background: url('background\ davinci.webp') center center / cover no-repeat scroll;
     background-size: cover;
     padding: 100px 20px;
     position: relative;
